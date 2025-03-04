@@ -15,15 +15,25 @@
             <h1>Minecraft Client</h1>
             <nav>
                 <ul>
-                    <li><a href="1.12/">Play</a></li>
-                    
+                    <li><a href="#play">Play</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <section class="hero">
+            <h2>Choose Your Version</h2>
+            <p>Select a version to start your Minecraft adventure!</p>
+            <div class="button-container">
+                <button class="version-button" onclick="playVersion('1.12')">Play 1.12</button>
+                <button class="version-button" onclick="playVersion('1.8')">Play 1.8</button>
+                <button class="version-button" onclick="playVersion('1.5')">Play 1.5</button>
+            </div>
+        </section>
         <footer>
-            <p>&copy; 2025 Minecraft Client. All rights reserved.</p>
+            <p>&copy; 2023 Minecraft Client. All rights reserved.</p>
         </footer>
     </main>
     <script src="script.js"></script>
